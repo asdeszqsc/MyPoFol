@@ -1,0 +1,25 @@
+.profile_text {
+  text-align: center;
+  .name {
+    font-weight: bold;
+  }
+  .comment {
+    margin: 10px;
+  }
+
+  .addition_info_box {
+    margin: 20px;
+
+    .info_text {
+      padding: 5px;
+      font-weight: 300;
+      text-align: left;
+      color: #b9b9b9;
+
+      .info_title{
+        width: 65px;
+        display: inline-block;
+      }
+    }
+  }
+}

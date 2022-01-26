@@ -1,0 +1,12 @@
+.root {
+  position: fixed;
+  margin-top: 50px;
+  height: 100%;
+  width: 300px;
+  border-right: 1px solid #e9e9e9;
+
+  .divider {
+    margin: 5px;
+    border: 1px solid #e9e9e9;
+  }
+}
