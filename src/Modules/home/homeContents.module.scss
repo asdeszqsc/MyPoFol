@@ -1,24 +1,15 @@
 @mixin compSize {
-  min-height: 1090px;
+  text-align: center;
+  min-height: 1070px;
+  padding: 10px;
 }
 
 .root {
   margin-left: 300px;
-  // .btn_page_route {
-  //   margin: 10px;
-  //   border: 1px solid white;
-  //   box-shadow: 0 0 6px 0 #cccccc;
-  //   font-size: 1.1rem;
-  //   padding: 5px 10px;
-  //   color: #292929;
 
-  //   &:hover {
-  //     background-color: rgb(226, 226, 226);
-  //     cursor: pointer;
-  //   }
-  // }
   .comp1 {
     @include compSize();
+
     background-color: black;
   }
   .comp2 {

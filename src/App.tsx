@@ -9,6 +9,7 @@ function App() {
       <div className="contents_position">
         <Routes>
           <Route path="/" element={<Pages.Home />} />
+          <Route path="/blog/*" element={<Pages.Blog />} />
         </Routes>
       </div>
     </BrowserRouter>
