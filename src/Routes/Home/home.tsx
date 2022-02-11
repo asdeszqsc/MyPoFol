@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { throttle } from "lodash";
+import { throttle, debounce } from "lodash";
 import HomeContents from "Modules/home/homeContents";
 
 import Header from "Modules/layout/header/header";
@@ -10,10 +10,10 @@ import styles from "./home.module.scss";
 function Home() {
 	const [currentLink, setCurrentLink] = useState<number>(0);
 
-	const linkClickEvent = (linkIdx: number) => {
+	const linkClickEvent = debounce((linkIdx: number) => {
 		setCurrentLink(linkIdx);
 		window.scrollTo({ top: 1080 * linkIdx, left: 0, behavior: "smooth" });
-	};
+	}, 300);
 
 	const handleScroll = throttle((e) => {
 		if (e.deltaY > 0 && currentLink < 3) {
