@@ -1,0 +1,37 @@
+@mixin iconPos {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition-duration: 0.2s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+@mixin hideText {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.root{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 30px;
+
+  .iconGrid{
+    @include iconPos();
+    @include hideText();
+    background-image: url('../../../assets/menu/grid.png');
+  }
+  .iconList{
+    @include iconPos();
+    @include hideText();
+    background-image: url('../../../assets/menu/list.png');
+  }
+}

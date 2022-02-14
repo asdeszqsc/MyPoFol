@@ -1,6 +1,7 @@
-import TodoStore from "./todo";
+import ViewSelector from "./viewSelector";
 
-const StoreIndex = () =>{
-  TodoStore
-}
+const StoreIndex = () => {
+  return { ViewSelector };
+};
+
 export default StoreIndex;
