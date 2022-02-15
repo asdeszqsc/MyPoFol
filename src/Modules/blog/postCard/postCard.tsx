@@ -1,16 +1,16 @@
 import React from 'react';
-import { CardData } from 'Modules/blog/blog';
+import { PostData } from 'Modules/blog/blog';
 import { PostCardThumbnail } from '../postCard/postCardThumbnail/postCardThumbnail';
 import styles from './postCard.module.scss';
 
 interface PostCardProps {
-  cardData: Array<CardData>,
+  cardData: Array<PostData>,
 }
 
 export const PostCard = ({ cardData }: PostCardProps) => {
   return (
     <div className={styles.root}>
-      {cardData.map((card: CardData) => (<div className={styles.cardForm} key={card.id}>
+      {cardData.map((card: PostData) => (<div className={styles.cardForm} key={card.id}>
         <div className={styles.cardThumbnail}>
           <PostCardThumbnail thumbnailSrc={card.thumbnail} />
         </div>

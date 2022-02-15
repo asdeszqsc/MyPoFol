@@ -1,10 +1,11 @@
-export interface CardData {
+export interface PostData {
   id: number,
   postName: string,
   thumbnail: string,
   previewText: string,
   date: Date,
   userNickName: string,
-  userThumbnail
+  userThumbnail: string,
   likeCount: number
+  tagList: Array<string>,
 }

@@ -8,12 +8,12 @@ export const BlogOption = () => {
 
   const changeViewGrid = () => {
     ViewSelector.handleChange(true);
-    console.log(ViewSelector.isGrid);
+    // console.log(ViewSelector.isGrid);
   };
 
   const changeViewList = () => {
     ViewSelector.handleChange(false);
-    console.log(ViewSelector.isGrid);
+    // console.log(ViewSelector.isGrid);
   };
 
   return useObserver(() => (<div className={styles.root}>
