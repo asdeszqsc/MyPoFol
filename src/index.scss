@@ -82,6 +82,7 @@ time,
 mark,
 audio,
 video {
+  
   margin: 0;
   padding: 0;
   border: 0;
@@ -106,6 +107,7 @@ section {
   display: block;
 }
 body {
+  background-color: rgb(245,245,245);
   line-height: 1;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;

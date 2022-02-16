@@ -1,0 +1,79 @@
+.root{
+  width: 700px;
+  margin: 0 auto;
+  
+
+  .listForm{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 30px;
+  }
+  .userThumbnail{
+    display: flex;
+    align-items: center;
+    margin: 15px 10px;
+    img{
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: inline-block;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    span{
+      font-weight: bold;
+    }
+  }
+  .postThumbnail{
+    img{
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  .postBody{
+    margin: 10px;
+    .title{
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .previewText{
+      line-height: 1.5;
+      min-height: 80px;
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+  }
+
+  .tagList{
+    margin-top: 10px;
+    display: flex;
+    .tag{
+      margin: 10px;
+      padding: 10px 15px;
+      background-color: rgb(233, 233, 233);
+      border-radius: 1rem;
+      color: rgb(0, 155, 103);
+      span{
+        position: relative;
+        bottom: 2px;
+      }
+    }
+  }
+
+  .postFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+    padding-bottom: 50px;
+    .date{
+      font-size: 0.875rem;
+      color: #cccccc;
+    }
+    .likeCount{
+      display: flex;
+      align-items: center;
+    }
+  }
+}

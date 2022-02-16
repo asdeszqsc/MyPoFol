@@ -16,7 +16,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/velopert/profile/ccab49cd-098c-4bb4-87dd-38044a403b61/17202261.png?w=120',
     userNickName: 'velopert',
     likeCount: 187,
-    tagList: [''],
+    tagList: ['javascript', 'java', 'c++', 'python'],
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/eunddodi/profile/6dea9499-1905-47ce-b134-cd114fda951e/28AD62FF-5747-406B-AE82-014AEC0E7601.JPG?w=120',
     userNickName: 'eunddodi',
     likeCount: 58,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/junghyeonsu/profile/1d495524-92a5-4bc5-9797-4a63d300e272/스크린샷 2022-01-08 오후 7.44.24.png?w=120',
     userNickName: 'junghyeonsu',
     likeCount: 65,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/limsubin/profile/3a303380-41d9-4512-a85b-9f35a4b30129/111.jpg?w=120',
     userNickName: 'limsubin',
     likeCount: 46,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/heyiminhye/profile/3f109555-5397-4ac9-bc9b-a42d21b80f5b/95872241.png?w=120',
     userNickName: 'heyiminhye',
     likeCount: 31,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/seongkyun/profile/376d5be7-a01e-4e6c-a7f9-b9b9e5dc83cc/15887982.png?w=120',
     userNickName: 'seongkyun',
     likeCount: 13,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/heekang/profile/32bd2d29-cc88-46e9-bd81-03e71860abe1/IMG_5663.jpeg?w=120',
     userNickName: 'heekang',
     likeCount: 9,
-    tagList: [''],
+    tagList: [],
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const tempCardData = [
     userThumbnail: 'https://media.vlpt.us/images/mare-solis/profile/4a72b56e-8e67-43db-b25c-78c6064f0472/FAFBE424-DC9B-4D65-B4A0-7684E089D3B8.png?w=120',
     userNickName: 'mare-solis',
     likeCount: 5,
-    tagList: [''],
+    tagList: [],
   },
 ];
 
